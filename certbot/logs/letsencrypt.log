@@ -1,0 +1,20 @@
+2021-10-02 21:22:27,573:DEBUG:certbot._internal.main:certbot version: 1.19.0
+2021-10-02 21:22:27,574:DEBUG:certbot._internal.main:Location of certbot entry point: /usr/local/bin/certbot
+2021-10-02 21:22:27,574:DEBUG:certbot._internal.main:Arguments: []
+2021-10-02 21:22:27,574:DEBUG:certbot._internal.main:Discovered plugins: PluginsRegistry(PluginEntryPoint#manual,PluginEntryPoint#null,PluginEntryPoint#standalone,PluginEntryPoint#webroot)
+2021-10-02 21:22:27,590:DEBUG:certbot._internal.log:Root logging level set at 30
+2021-10-02 21:22:27,593:DEBUG:certbot._internal.display.obj:Notifying user: Processing /etc/letsencrypt/renewal/playsdev.ddns.net.conf
+2021-10-02 21:22:27,615:DEBUG:certbot._internal.plugins.selection:Requested authenticator <certbot._internal.cli.cli_utils._Default object at 0x7f3e9f44d190> and installer <certbot._internal.cli.cli_utils._Default object at 0x7f3e9f44d190>
+2021-10-02 21:22:27,639:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): r3.o.lencr.org:80
+2021-10-02 21:22:27,651:DEBUG:urllib3.connectionpool:http://r3.o.lencr.org:80 "POST / HTTP/1.1" 200 503
+2021-10-02 21:22:27,652:DEBUG:certbot.ocsp:OCSP response for certificate /etc/letsencrypt/archive/playsdev.ddns.net/cert1.pem is signed by the certificate's issuer.
+2021-10-02 21:22:27,662:DEBUG:certbot.ocsp:OCSP certificate status for /etc/letsencrypt/archive/playsdev.ddns.net/cert1.pem is: OCSPCertStatus.GOOD
+2021-10-02 21:22:27,665:DEBUG:certbot._internal.display.obj:Notifying user: Certificate not yet due for renewal
+2021-10-02 21:22:27,667:DEBUG:certbot._internal.plugins.selection:Requested authenticator webroot and installer None
+2021-10-02 21:22:27,667:DEBUG:certbot._internal.display.obj:Notifying user: 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+2021-10-02 21:22:27,667:DEBUG:certbot._internal.display.obj:Notifying user: The following certificates are not due for renewal yet:
+2021-10-02 21:22:27,668:DEBUG:certbot._internal.display.obj:Notifying user:   /etc/letsencrypt/live/playsdev.ddns.net/fullchain.pem expires on 2021-12-31 (skipped)
+2021-10-02 21:22:27,668:DEBUG:certbot._internal.display.obj:Notifying user: No renewals were attempted.
+2021-10-02 21:22:27,669:DEBUG:certbot._internal.display.obj:Notifying user: - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+2021-10-02 21:22:27,669:DEBUG:certbot._internal.renewal:no renewal failures
